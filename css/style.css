@@ -1,0 +1,3067 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@600&display=swap');
+
+/*
+
+
+Name : Webtech;
+Author : Chebon Kelvin;
+Theme ; ;
+
+
+
+*/
+
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rokkitt', serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: 'Rokkitt', serif;
+    display: block;
+}
+nav, section, footer{
+    display: block;
+}
+
+/* || END GENERAL */
+
+
+/* NAVIGATION */
+nav{
+    height: 70px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+nav .nav-container{
+    height: 70px;
+    width: 80%;
+    margin: auto;
+}
+/* Navigation logo */
+nav .nav-container .nav-logo-container{
+    height: 70px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+nav .nav-container .nav-logo-container img{
+    height: 50px;
+    width: 200px;
+    float: left;
+    margin: 10px auto;
+}
+/* || End Navigation logo */
+
+/* Navigation links */
+nav .nav-container .nav-links-container{
+    height: 70px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+nav ul{
+	height: 70px;
+	width: 80%;
+	padding: 0 0;
+	margin: 0;
+	float: right;
+}
+nav ul li{
+	list-style: none;
+	text-align: center;
+	height: 70px;
+	width: 200px;
+    display: inline-block;
+    text-decoration: none;
+}
+nav .nav-container .nav-links-container .links-container-large li:hover{
+    transform: translateY(-5px);
+    transition: 0.9s ease;
+    text-decoration: none;
+    border-bottom: 4px solid #4CAF50;
+}
+
+nav ul, .link-1, .link-2, .link-3, .link-4{
+	display: flex;
+	align-items: center;
+}
+nav .nav-container .nav-links-container ul li a{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+nav .nav-container .nav-links-container ul .link-1 a:active{
+    color: #4CAF50;
+}
+nav ul .burger-menu-container{
+    display: none;
+	height: 70px;
+	width: 80%;
+	padding: 0 0;
+	margin: 0;
+	float: right;
+}
+nav ul .burger-menu-container .burger-menu-container{
+    display: none;
+}
+nav .nav-container .menu-hidden {
+    display: none;
+}
+
+/* || End Navigation links */
+
+/* || END NAVIGATION */
+
+.sidebar{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    background-color: #efedef;
+}
+.sidebar a{
+    display: block;
+    height: 40px;
+    width: 100%;
+    list-style: none;
+    padding: 6px 0 ;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+}
+.sidebar a:hover{       
+    transform: translateX(-7px);
+    transition: 0.7 ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    background-color: #73C845 ;
+    text-decoration: none;
+}
+
+/* BODY SECTION */
+section{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+section .body-section-container{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+
+/* HOME BANNER */
+section .home-banner{
+    height: 95vh;
+    width: 100%;
+    background-image: url('img/design02.png');
+    background-size: cover;
+    padding: 290px 0px;
+}
+section .home-banner .home-banner-texts{
+    height: 220px;
+    width: 50%;
+    margin: auto 20px;
+    float: left;
+    justify-content: space-around;
+}
+section .home-banner .home-banner-texts h4, p, button{
+    display: block;
+}
+section .home-banner .home-banner-texts h4{
+    margin: 0;
+    top: 0;
+    padding: 0;
+    height: 50px;
+    color: #000;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+section .home-banner .home-banner-texts p{
+    height: 100px;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+section .home-banner .home-banner-texts button{
+    height: 50px;
+    width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+section .home-banner .home-banner-texts button a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+/* || END HOME BANNER */
+
+/* FEATURES */
+section .features{
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+section .features .features-work, .features-text{
+    display: inline-block;
+}
+section .features .features-text{
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 140px 0px;
+}
+section .features .features-text h3{
+    height: 40px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+section .features .features-text p{
+    text-align: center;
+    width: 100%;
+    height: 80px;   
+    margin: 0; 
+}
+section .features .features-work{
+    height: 100%;
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 140px 0;
+}
+section .features .features-work .website-made{
+    height: 60px;
+    width: 100%;
+    margin: 5px 0px;
+}
+section .features .features-work .website-made h3{
+    height: 30px;
+    width: 100%;
+    margin: 0;
+}
+section .features .features-work .website-made p{
+    height: 30px;
+    width: 100%;
+    margin: 0;
+}
+section .features .features-work .software-made{
+    height: 60px;
+    widows: 100%;
+    width: 5px 0px;
+}
+section .features .features-work .software-made h3{
+    height: 30px;
+    width: 100%;
+    margin: 0;
+}
+section .features .features-work .software-made p{
+    height: 30px;
+    width: 100%;
+    margin: 0;
+}
+
+/* || END FEATURES */
+
+/* SUPPORT */
+section .body-section-container .support{
+    height: 150px;
+    width: 100%;
+    background-color: #fff;
+}
+section .body-section-container .support .support-header, .support-paragraph{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
+section .body-section-container .support .support-header{
+    float: left;
+    text-align: center;   
+    padding: 55px 0px;
+}
+
+section .body-section-container .support .support-header h4{
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
+    margin: auto;
+    top: 50%;
+    place-items: center;
+}
+
+section .body-section-container .support .support-paragraph{
+    float: right;
+    text-align: center;
+    margin: auto;
+    padding: 40px 0px;
+}
+section .body-section-container .support .support-paragraph p{
+    text-align: center;
+    height: 50px;
+    margin: 0;
+}
+section .body-section-container .support .support-paragraph span{
+    height: 20px;
+    width: fit-content;
+}
+/* || END SUPPORT */
+
+/* TESTIMONIALS */
+section .testimonials{
+    height: 400px;
+    width: 100%;
+}
+section .testimonials .testimonials-text, .testimonials-image{
+    display: inline-block;
+}
+section .testimonials .testimonials-text{
+    height: 100%;
+    width: 49.5%;
+    float: left;
+    padding: 125px 0px;
+}
+section .testimonials .testimonials-text h4, p{
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+section .testimonials .testimonials-text h4{
+    font-size: 30px;
+    height: 20%;
+    width: 70%;
+    color: grey;
+    margin: 5px auto;
+}
+section .testimonials .testimonials-text p{
+    font-size: 16px;
+    height: 30%;
+    width: 100%;
+}
+section .testimonials .testimonials-image{
+    height: 100%;
+    width: 49%;
+    float: right;
+    padding: 0;
+}
+section .testimonials .testimonials-image img{
+    height: 400px;
+    width: 800px;
+}
+
+/* || END TESTIMONIALS */
+
+/* SUCCESS STORY */
+section .success-story{
+    height: 400px;
+    width: 100%;
+}
+section .success-story .success-story-image{
+    height: 100%;
+    width: 49%;
+    float: left;
+    padding: 0;
+}
+section .success-story .success-story-image img{
+    height: 400px;
+    width: 800px;
+}
+section .success-story .success-story-text{
+    height:100%;
+    width: 49%;
+    float: right;
+    text-align: center;
+    padding: 125px 0px;
+}
+section .success-story .success-story-text h4, p{
+    display: block;
+    text-align: center;
+}
+section .success-story .success-story-text h4{
+    font-size: 30px;
+    height: 20%;
+    width: 70%;
+    color: grey;
+    margin: 5px auto;
+}
+section .success-story .success-story-text p{
+    font-size: 16px;
+    height: 30%;
+    width: 100%;
+}
+/* || END SUCCESS STORY */
+
+
+
+/*  --------------- PORTFOLIO PAGE -------------   */
+
+section .portfolio-template{
+    height: 1500px;
+    width: 100%;
+}
+section .portfolio-template .disp-block{
+    display: block;
+}
+section .portfolio-template .portfolio-header-container{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+section .portfolio-template .portfolio-header-container h4, .disp-block{
+    display: block;
+}
+section .portfolio-template .portfolio-header-container h4{
+    text-align: center;
+    font-size: 40px;
+    height: 40px;
+    width: 300px;
+    font-weight: bold;
+    width: 200px;
+    margin: auto;
+}
+section .portfolio-template .portfolio-header-container .portfolio-underline{
+    height: 3px;
+    border-radius: 3px;
+    width: 150px;
+    background-color:#4CAF50;
+    margin: auto;
+}
+section .portfolio-template .portfolio-content-container{
+    height: 1320px;
+    width: 100%;
+    padding: 30px 20px;
+}
+section .portfolio-template .portfolio-content-container .disp-block{
+    display: block;
+}
+section .portfolio-template .portfolio-content-container .row{
+    height: 400px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+section .portfolio-template .portfolio-content-container .row .complete-projects{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+section .portfolio-template .portfolio-content-container .row .complete-projects:hover{
+    transform: translateY(-12px);
+    transition: 0.7s;
+    transition-timing-function: 0.7s ease-in;
+}
+section .portfolio-template .portfolio-content-container .row  .complete-projects img, h4, a{
+    display: block;
+}
+section .portfolio-template .portfolio-content-container .row  .complete-projects img{
+    height: 300px;
+    width: 100%;
+    margin: auto;
+}
+section .portfolio-template .portfolio-content-container .row  .complete-projects h4{
+    height: 50px;
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    margin: 5px auto;
+} 
+section .portfolio-template .portfolio-content-container .row  .complete-projects a{
+    height: 20px;
+    width: 270px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+section .portfolio-template .portfolio-content-container .row  .complete-projects .disp-inline{
+    display: inline-block;
+    vertical-align: top;
+    display: inline;
+    zoom: 1;
+    margin: auto;
+}
+
+
+/*  --------------- || END PORTFOLIO PAGE -------------   */
+
+
+
+
+
+
+/*  --------------- ABOUT PAGE -------------   */
+
+section .about-template{
+    height: 1500px;
+    width: 100%;
+}
+section .about-template .disp-block{
+    display: block;
+}
+section .about-template .about-header-container{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+section .about-template .about-header-container h4, .disp-block{
+    display: block;
+}
+section .about-template .about-header-container h4{
+    text-align: center;
+    font-size: 40px;
+    height: 40px;
+    width: 300px;
+    font-weight: bold;
+    width: 200px;
+    margin: auto;
+}
+section .about-template .about-header-container .about-underline{
+    height: 3px;
+    border-radius: 3px;
+    width: 150px;
+    background-color: #4CAF50;
+    margin: auto;
+}
+section .about-template .about-content-container{
+    height: 1200px;
+    width: 100%;
+}
+section .about-template .about-content-container .about-content-container .disp-block{
+    display: block;
+}
+section .about-template .about-content-container .about-company{
+    height: 400px;
+    width: 100%;
+}
+section .about-template .about-content-container .about-company .disp-inline{
+    display: inline-block;
+}
+section .about-template .about-content-container .about-company .about-company-text{
+    height: 100%;
+    width: 50%;
+    padding: 50px 20px;
+    float: left;
+}
+section .about-template .about-content-container .about-company .about-company-text h3, p{
+    display: block;
+}
+section .about-template .about-content-container .about-company .about-company-text h3{
+    height: 20%;
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+}
+section .about-template .about-content-container .about-company .about-company-text p{
+    height: 50%;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+section .about-template .about-content-container .about-company .about-company-logo{
+    height: 100%;
+    width: 50%;
+    padding: 50px 20px;
+    float: right;
+}
+section .about-template .about-content-container .company-history{
+    height: 400px;
+    width: 100%;
+}
+section .about-template .about-content-container .company-team{
+    height: 400px;
+    width: 100%;
+    padding: 30px 20px;
+}
+section .about-template .about-content-container .company-team .row{
+    display: block;
+    height: 50%;
+    width: 100%;
+    margin: 0;
+}
+section .about-template .about-content-container .company-team .row .indivi-infor{
+    height: 160px;
+    width: 32%;
+    display: inline-block;
+    padding: 0px 8px;
+}
+section .about-template .about-content-container .company-team .row .indivi-infor h3, p, button{
+    display: block;
+}
+section .about-template .about-content-container .company-team .row .indivi-infor h3{
+    height: 20%;
+    width: 100%;
+    text-align: left;
+}
+section .about-template .about-content-container .company-team .row .indivi-infor p{
+    height: 10%;
+    width: 100%;
+    text-align: left;
+}
+section .about-template .about-content-container .company-team .row .indivi-infor button{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+section .about-template .about-content-container .modal{
+    height: 250px;
+    width: 700px;
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    z-index: 1;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+section .about-template .about-content-container .modal .modal-content{
+    height: 250px;
+    width: 700px;
+    padding: 10px 10px;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+section .about-template .about-content-container .modal .modal-content .disp-block{
+    display: block;
+}
+section .about-template .about-content-container .modal .modal-content .modal-header{
+    height: 20%;
+    width: 100%;
+    background-color: #707070;
+    padding: 12px 12px;
+}
+section .about-template .about-content-container .modal .modal-content .modal-header h3, a{
+    display: inline-block;
+}
+section .about-template .about-content-container .modal .modal-content .modal-header h3{
+    float: left;
+    height: 100%;
+    width: 80%;
+    font-size: 25px;
+    margin: 0;
+}
+section .about-template .about-content-container .modal .modal-content .modal-header a{
+    height: 100%;
+    width: 20%;
+    float: right;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+section .about-template .about-content-container .modal .modal-content .modal-header a i{
+    color: grey;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+section .about-template .about-content-container .modal .modal-content .modal-content-inner{
+    height: 80%;
+    width: 100%;
+    padding: 10px 10px;
+}
+section .about-template .about-content-container .modal .modal-content .modal-content-inner h3, p{
+    display: block;
+}
+section .about-template .about-content-container .modal .modal-content .modal-content-inner h3{
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+}
+section .about-template .about-content-container .modal .modal-content .modal-content-inner p{
+    height: 100px;
+    width: 100%;
+    font-size: 18px;
+    text-emphasis: left;
+}
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+/*  --------------- || END ABOUT PAGE -------------   */
+
+
+
+
+
+
+
+/*  --------------- CONTACT PAGE -------------   */
+
+section .contact-template{
+    height: 1100px;
+    width: 100%;
+}
+section .contact-template .disp-block{
+    display: block;
+}
+section .contact-template .contact-header-container{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+section .contact-template .contact-header-container h4, .disp-block{
+    display: block;
+}
+section .contact-template .contact-header-container h4{
+    text-align: center;
+    font-size: 40px;
+    height: 40px;
+    width: 300px;
+    font-weight: bold;
+    margin: 5px auto;
+}
+section .contact-template .contact-header-container .contact-underline{
+    height: 5px;
+    border-radius: 4px;
+    width: 150px;
+    background-color: #4CAF50;
+    margin: auto;
+}
+section .contact-template .contact-content-container{
+    height: 810px;
+    width: 100%;
+}
+
+
+/* ------ Content continer ---------- */
+
+section .contact-template .contact-content-container .disp-block{
+    display: block;
+}
+
+/*  Contact information */
+section .contact-template .contact-content-container .contact-info{
+    height: 400px;
+    width: 100%;
+    padding: 40px 20px;
+}
+section .contact-template .contact-content-container .contact-info .disp-inline{
+    display: inline-block;
+}
+section .contact-template .contact-content-container .contact-info .call-info{
+    height: 320px;
+    width: 33%;
+    float: left;
+}
+section .contact-template .contact-content-container .contact-info .call-info h3, a, p{
+    display: block;
+}
+section .contact-template .contact-content-container .contact-info .call-info h3{
+    height: 20%;
+    width: 100%;
+    text-align: left;
+    padding: 20px 0;
+    font-size: 25px;
+}
+section .contact-template .contact-content-container .contact-info .call-info a{
+    height: 10%;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+}
+section .contact-template .contact-content-container .contact-info .call-info p{
+    height: 50%;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+}
+section .contact-template .contact-content-container .contact-info .email-info{
+    height: 320px;
+    width: 33%;
+}
+section .contact-template .contact-content-container .contact-info .email-info h3, a, p{
+    display: block;
+}
+section .contact-template .contact-content-container .contact-info .email-info h3{
+    height: 20%;
+    width: 100%;
+    text-align: left;
+    padding: 20px 0;
+    font-size: 25px;
+}
+section .contact-template .contact-content-container .contact-info .email-info a{
+    height: 10%;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+}
+section .contact-template .contact-content-container .contact-info .email-info p{
+    height: 50%;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+}
+section .contact-template .contact-content-container .contact-info .online-info{
+    height: 320px;
+    width: 33%;
+    float: right;
+}
+section .contact-template .contact-content-container .contact-info .online-info h3, a, p{
+    display: block;
+}
+section .contact-template .contact-content-container .contact-info .online-info h3{
+    height: 20%;
+    width: 100%;
+    text-align: left;
+    padding: 20px 0;
+    font-size: 25px;
+}
+section .contact-template .contact-content-container .contact-info .online-info a{
+    height: 10%;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+}
+section .contact-template .contact-content-container .contact-info .online-info p{
+    height: 50%;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+}
+/*  | End Contact information */
+
+
+/*  Social information */
+section .contact-template .contact-content-container .social-links{
+    height: 150px;
+    width: 100%;
+    padding: 50px 0px;
+}
+section .contact-template .contact-content-container .social-links .disp-inline{
+    display: inline-block;
+}
+section .contact-template .contact-content-container .social-links .social-text{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+section .contact-template .contact-content-container .social-links .social-text h3{
+    font-size: 40px;
+    text-align: center;
+}
+section .contact-template .contact-content-container .social-links .social-icons-links{
+    height: 100%;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+section .contact-template .contact-content-container .social-links .social-icons-links a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 0px 20px;
+}
+section .contact-template .contact-content-container .social-links .social-icons-links a i{
+    color: rgb(29, 28, 28);
+}
+/*  || End Social information */
+
+/*  Location information */
+section .contact-template .contact-content-container  .google-maps-location{
+    height: 450px;
+    width: 100%;
+}
+section .contact-template .contact-content-container  .google-maps-location .disp-inline{
+    display: inline-block;
+}
+section .contact-template .contact-content-container  .google-maps-location .hq-info{
+    height: 100%;
+    width: 39%;
+    float: left;
+}
+section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container{
+    height: 320px;
+    width: 100%;
+    padding: 20px 10px;
+    position: static;
+    top: 0;
+}
+section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container h3, p, ul{
+    display: block;
+}
+section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container h3{
+    font-size: 30px;
+    text-align: left;
+    height: 20%;
+    width: 100%;
+}
+section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container p{
+    font-size: 20px;
+    height: 28%;
+    width: 100%;
+    text-align: left;
+}
+section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container ul{
+    height: 40%;
+    width: 100%;
+    text-align: left;
+}
+section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container ul li{
+    display: block;
+    height: 20px;
+    width: 100%;
+    font-size: 18px;
+}
+section .contact-template .contact-content-container  .google-maps-location .hq-location{
+    height: 100%;
+    width: 59%;
+}
+section .contact-template .contact-content-container  .google-maps-location .hq-location iframe{
+    height: 100%;
+    width: 100%;
+}
+/*  || Location information */
+
+
+/* --------- ||End Content continer  ---------*/
+
+/*  --------------- || END CONTACT PAGE -------------   */
+
+
+
+
+
+
+/* || END BODY SECTION */
+
+/* FOOTER */
+footer{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    position: static;
+    bottom: 0;
+}
+footer .footer-display-block{
+    display: block;
+}
+footer .footer-container{
+    height: 240px;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    padding-top: 30px;
+    border-bottom: 1px solid grey;
+}
+
+footer .footer-container .footer-inline{
+    display: inline-block;
+}
+/* column one */
+footer .footer-container .footer-column-one{
+    height: 100%;
+    width: 24%;
+    float: left;
+}
+footer .footer-container .footer-column-one h5, ul{
+    display: block;
+}
+footer .footer-container .footer-column-one h5{
+    height: 20%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    font-size: 30px;
+    color: white;
+}
+footer .footer-container .footer-column-one ul{
+    top: 0;
+    height: 75%;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    position: relative;
+}
+footer .footer-container .footer-column-one ul li{
+    height: 30px;
+    width: 200px;
+    padding: 0;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+footer .footer-container .footer-column-one ul li a{
+    font-size: 16px;
+    height: 30px;
+    width: 200px;
+    color: #4c4947;
+    text-decoration: none;
+}
+/* || End column one */
+
+/* column two */
+footer .footer-container .footer-column-two{
+    height: 100%;
+    width: 24%;
+    top: 0;
+}
+footer .footer-container .footer-column-two h5, ul{
+    display: block;
+}
+footer .footer-container .footer-column-two h5{
+    height: 20%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    color: white;
+}
+footer .footer-container .footer-column-two ul{
+    height: 75%;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    top: 0;
+}
+footer .footer-container .footer-column-two ul li{
+    height: 20%;
+    width: 100%;
+    padding: 0;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+footer .footer-container .footer-column-two ul li a{
+    font-size: 16px;
+    height: 30px;
+    width: 250px;
+    color: #4c4947;
+    text-decoration: none;
+}
+footer .footer-container .footer-column-two ul li a i{
+    font-size: 16px;
+    height: 30px;
+    width: 30px;
+    color: #686665;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+/* || End column two */
+
+/* column three */
+footer .footer-container .footer-column-three{
+    height: 100%;
+    width: 48%;
+    float: right;
+    top: 0;
+    right: 0;
+}
+
+footer .footer-container .footer-column-three .h5-container, .social-media-container{
+    display: block;
+}
+footer .footer-container .footer-column-three .h5-container{
+    height: 20%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+footer .footer-column-three h5{
+    height: 100%;
+    width: 50%;
+    padding: 0;
+    margin: auto;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+}
+footer .footer-container .footer-column-three .social-media-container{
+    height: 50px;
+    width: 60%;
+    margin: auto;
+}
+
+footer .footer-container .footer-column-three .social-media-container a{ 
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 10px;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+footer .footer-container .footer-column-three .social-media-container a i{  
+    height: 50px;
+    width: 50px;
+    color: #686665;
+    justify-content: space-between;
+}
+/* || End column three */
+
+/* terms and condition */
+footer .footer-terms-conditions{
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    color: grey;
+}
+footer .footer-terms-conditions a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+/* || End terms and condition */
+
+/* || END FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------             @Media Queries              ----------------------- */
+
+
+/* Display for different screen sizes */
+
+/* Small devices (landscape phones, 300px and up) */
+@media only screen and (min-width:200px) and (max-width:699px) {
+        nav .nav-container{
+            width: 95%;
+        }
+        nav .nav-container .nav-links-container .links-container-large{
+            display: none;
+        }
+        nav .nav-container .burger-menu-container{
+            height: 70px;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        nav .nav-container .burger-menu-container .burger-menu{
+            height: 70px;
+            width: 70px;
+            float: right;
+            margin: 0px 0px;
+            position: absolute;
+            right: 0;
+            margin-right: 35px;
+        }
+        nav .nav-container .burger-menu-container .burger-menu a{
+            height: 70px;
+            width: 70px;
+            cursor: pointer;
+        }
+        nav .nav-container .burger-menu-container .burger-menu a:hover{
+            transform: translateY(-5px);
+            transition: 0.9 ease;
+        }
+        nav .nav-container .burger-menu-container .burger-menu i{
+            height: 70px;
+            width: 70px;
+            font-size: 30px;
+            padding: 20px 0px;
+            color: black;  
+        }
+
+
+        /*  Hidden Burger Menu */
+            nav .nav-container .menu-hidden {
+                height: 400px;
+                width: 300px;
+                position: absolute;
+                display: none;
+                top: 0;
+                right: 0;
+            }
+            nav .nav-container .menu-hidden ul li{
+                display: block;
+            }
+            nav .nav-container ul{
+                height: 100%;
+                width: 100%;
+            }
+            nav .nav-container .menu-hidden ul li a{
+                color: black;
+                text-decoration: none;
+                font-size: 20px;
+                text-align: center;
+                margin: auto;
+                text-align: center;
+            }
+
+        /*  || End Hidden Burger Menu */
+
+
+
+        section .body-section-container{
+            width: 95%;
+        }
+        section .body-section-container .home-banner{
+            padding: 75px 0px;
+            width: 100%;
+            height: 500px;
+        }
+        section .body-section-container .home-banner .home-banner-texts{
+            height: 350px;
+            width: 350px;
+            background-color: #ffffff;
+        }
+        section .body-section-container .home-banner .home-banner-texts h4{
+            height: 50px;
+            width: 100%;
+            font-size: 35px;
+            margin: 0;
+        }
+        section .body-section-container .home-banner .home-banner-texts p{
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        section .body-section-container .features{
+            height: 300px;
+        }
+        section .body-section-container .features .features-text{
+            padding: 60px 0;
+        }
+        section .body-section-container .features .features-text p{
+            height: 140px;
+        }
+        section .body-section-container .features .features-work{
+            padding: 90px 0;
+        }
+        section .body-section-container .support .disp-block{
+            display: block;
+        }
+        section .body-section-container .support .support-header{
+            padding: 0;
+            height: 20%;
+            width: 100%;
+            margin-bottom: 8px;
+        }
+        section .body-section-container .support .support-header h4{
+            font-size: 26px;
+        }
+        section .body-section-container .support .support-paragraph{
+            padding: 0;
+            width: 100%;
+            height: 70%;
+        }
+        section .body-section-container .support .support-paragraph p{
+            height: 65px;
+        }
+        section .testimonials{
+            height: 300px;
+        }
+        section .testimonials .testimonials-text{
+            height: 300px;
+            width: 100%;
+            padding: 90px 0px;
+        }
+        section .testimonials .testimonials-text h4{
+            width: 100%;
+            font-size: 26px;
+        }
+        section .testimonials .testimonials-text p{
+            height: 80px;
+            margin: 0;
+        }
+        section .testimonials .testimonials-image{
+            display: none;
+        }
+        section .success-story{
+            height: 300px;
+        }
+        section .success-story .success-story-image{
+            display: none;
+        }
+        section .success-story .success-story-text{
+            width: 100%;
+            padding: 60px 0px;
+        }
+        section .success-story .success-story-text h4{
+            width: 85%;
+            height: 65px;
+        }
+        section .success-story .success-story-text p{
+            margin: 0;
+            width: 100%;
+            height: 100px;
+        } 
+
+        /*  Portfolio small screen 300px  */
+        section .body-section-container {
+            height: fit-content;
+        }
+        section .body-section-container .portfolio-template{
+            height: 3920px;
+        }
+        section .body-section-container .portfolio-template .portfolio-content-container {
+            height: 3920px;
+        }
+        section .body-section-container .portfolio-template .portfolio-content-container .row{
+            height: 1250px;
+        }
+        section .body-section-container .portfolio-template .portfolio-content-container .row .disp-inline{
+            display: block;
+        }
+        /*  || End Portfolio small screen 300px  */
+
+
+
+        /*  About small screen 300px  */
+            section .about-template .about-content-container .about-company{
+                height: 450px;
+            }
+            section .about-template .about-content-container .about-company .about-company-text{
+                height: 100%;
+                width: 100%;
+                padding: 50px 20px;
+                float: left;
+            }
+            section .about-template .about-content-container .about-company .about-company-text h3{
+                height: 10%;
+                width: 100%;
+                text-align: left;
+                font-size: 25px;
+                margin: 0;
+            }
+            section .about-template .about-content-container .about-company .about-company-text p{
+                height: 80%;
+                width: 100%;
+                text-align: left;
+                font-size: 18px;
+                margin: 0;
+            }
+            section .about-template .about-content-container .about-company .about-company-logo{
+                display: none;
+            }
+            section .about-template .about-content-container .company-team{
+                padding: 5px;
+            }
+            section .about-template .about-content-container .company-team .row .indivi-infor h3{ 
+                font-size: 20px;
+            }
+            section .about-template .about-content-container .company-team .row .indivi-infor p{
+                font-size: 14px;
+            }
+        /*  || End About small screen 300px  */
+
+
+        /*  Contact Us small screen 300px  */
+            section .contact-template{
+                height: 2100px;
+            }
+            section .contact-template .contact-content-container{
+                height: 2000px;
+            }
+            section .contact-template .contact-content-container .contact-info{
+                padding: 5px;
+                height: 980px;
+            }
+            section .contact-template .contact-content-container .contact-info .call-info{
+                width: 100%;
+                text-align: center;
+            }
+            section .contact-template .contact-content-container .contact-info .call-info h3{
+                text-align: center;
+            }
+            section .contact-template .contact-content-container .contact-info .call-info a{
+                margin: auto;
+                width: 50%;
+                text-align: center;
+            }
+            section .contact-template .contact-content-container .contact-info .call-info p{
+                text-align: center;
+                margin: auto;
+                width: 60%;
+            }
+            section .contact-template .contact-content-container .contact-info .email-info{
+                width: 100%;
+                height: 320px;
+            }
+            section .contact-template .contact-content-container .contact-info .email-info h3{
+                text-align: center;
+            }
+            section .contact-template .contact-content-container .contact-info .email-info a{
+                margin: auto;
+                width: 50%;
+                text-align: center;
+            }
+            section .contact-template .contact-content-container .contact-info .email-info p{
+                text-align: center;
+                margin: auto;
+                width: 60%;
+            }
+            section .contact-template .contact-content-container .contact-info .online-info{
+                width: 100%;
+            }
+            section .contact-template .contact-content-container .contact-info .online-info h3{
+                text-align: center;
+            }
+            section .contact-template .contact-content-container .contact-info .online-info a{
+                margin: auto;
+                width: 50%;
+                text-align: center;
+            }
+            section .contact-template .contact-content-container .contact-info .online-info p{
+                text-align: center;
+                margin: auto;
+                width: 60%;
+            }
+            section .contact-template .contact-content-container .social-links .social-text h3{
+                font-size: 32px;
+                padding: 5px 0px;
+                height: 50px;
+            }
+            section .contact-template .contact-content-container .social-links .social-icons-links a{
+                display: inline-block;
+                height: 30px;
+                width: 30px;
+                margin: 0px 10px;
+            }
+            section .contact-template .contact-content-container .google-maps-location{
+                height: 800px;
+            }
+            section .contact-template .contact-content-container .google-maps-location .disp-inline{
+                display: block;
+                width: 100%;
+                height: 400px;
+            }
+            section .contact-template .contact-content-container  .google-maps-location .hq-info{
+                height: 49%;
+                width: 100%;
+                float: left;
+            }
+            section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container{
+                height: 320px;
+                width: 100%;
+                padding: 20px 10px;
+            }
+            section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container h3, p, ul{
+                display: block;
+            }
+            section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container h3{
+                font-size: 30px;
+                text-align: center;
+                height: 24%;
+                width: 100%;
+            }
+            section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container p{
+                font-size: 18px;
+                height: 28%;
+                width: 100%;
+                text-align: center;
+            }
+            section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container ul{
+                height: 40%;
+                width: 100%;
+                text-align: center;
+            }
+            section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container ul li{
+                display: block;
+                height: 20px;
+                width: 100%;
+                font-size: 16px;
+            }
+        /*  || End Contact Us small screen 300px  */
+        footer{
+            width: 100%;
+        }
+        footer .footer-container{
+            width: 95%;
+            margin: 0;
+        }
+        footer .footer-container .disp-block{
+            display: block;
+        }
+        footer .footer-container .footer-column-one{
+            height: 200px;
+            width: 350px;
+            margin: auto 65px;
+            padding: 10px 0px;
+        }
+        footer .footer-container .footer-column-one ul{
+            height: 140px;
+        }
+        footer .footer-container .footer-column-two{
+            display: none;
+        }
+        footer .footer-container .footer-column-three{
+            display: none;
+        }
+    
+}
+
+/* Medium devices (tablets, 600px and up) */
+@media only screen and (min-width: 700px) and (max-width:999px) {
+
+        nav .nav-container{
+            width: 90%;
+        }
+        nav .nav-container .nav-links-container .links-container-large{
+            display: none;
+        }
+         nav .nav-container .burger-menu-container .burger-menu a:hover{
+            transform: translateY(-2px);
+            transition: 0.2 ease-in;
+        }
+        section .body-section-container{
+            width: 90%;
+        }
+        footer .footer-container{
+            width: 100%;
+        }
+
+        nav .nav-container .nav-links-container .links-container-large{
+            display: none;
+        }
+
+        nav .nav-container .nav-links-container .link-4 {
+            width: 100px;
+            display: flex;
+        }
+        nav .nav-container .nav-links-container .link-4 a{
+            width: fit-content;
+            display: flex;
+        }
+        nav .nav-container .burger-menu-container{
+            height: 70px;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        nav .nav-container .burger-menu-container .burger-menu{
+            height: 70px;
+            width: 70px;
+            float: right;
+            margin: 0px 0px;
+            position: absolute;
+            right: 0;
+            margin-right: 35px;
+        }
+        nav .nav-container .burger-menu-container .burger-menu i{
+            height: 70px;
+            width: 70px;
+            font-size: 30px;
+            padding: 20px 0px;
+            color: black;  
+        }
+        section .home-banner{
+            height: 800px;
+            width: 100%;
+            background-image: url('img/background.jpg');
+            background-size: cover;
+            padding: 220px 0px;
+        }
+        section .home-banner .home-banner-texts{
+            height: 360px;
+            width: 70%;
+            margin: auto;
+            float: left;
+            justify-content: space-around;
+        }
+        section .home-banner .home-banner-texts p{
+            height: 180px;
+            font-size: 20px;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+        }
+        section .body-section-container .support .support-header{
+            padding: 40px 0;
+        }
+        section .body-section-container .support .support-paragraph{
+            padding: 30px 0;
+        }
+        section .body-section-container .support .support-paragraph p{
+            height: 65px;
+        }
+        section .testimonials{
+            height: 300px;
+        }
+        section .testimonials .testimonials-text{
+            padding: 75px 0px;
+        }
+        section .testimonials .testimonials-text h4{
+            margin: 0;
+            width: 100%;
+        }
+        section .testimonials .testimonials-text p{
+            height: 90px;
+            margin: 0;
+        }
+        section .testimonials .testimonials-image img{
+            height: 300px;
+            width: 340px;
+        }
+        section .success-story{
+            height: 300px;
+        }
+        section .success-story .success-story-image img{
+            height: 300px;
+            width: 340px;
+        }
+
+        section .success-story .success-story-text {
+            padding: 75px 0px;
+        }
+        section .success-story .success-story-text h4{
+            width: 100%;
+            height: 50px;
+            margin: auto;
+            margin-bottom: 5px;
+            line-height: 20px;
+        }
+        section .success-story .success-story-text p{
+            height: 90px;
+            margin: 0;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects{
+            height: 400px;
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: auto;
+        }
+        section .features{
+            height: 300px;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        section .features .features-work, .features-text{
+            display: inline-block;
+        }
+        section .features .features-text{
+            height: 100%;
+            width: 50%;
+            float: left;
+            text-align: center;
+            padding: 85px 0px;
+        }
+        section .features .features-text p{
+            text-align: center;
+            width: 100%;
+            height: 90px;   
+            margin: 0; 
+        }
+        section .features .features-work{
+            height: 100%;
+            width: 50%;
+            float: right;
+            text-align: center;
+            padding: 90px 0;
+        }
+        section .portfolio-template{
+            height: 1400px;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects{
+            height: 350px;
+            width: 200px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: auto;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects img{
+            height: 250px;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects h4{
+            width: 100%;
+            font-size: 18px;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects a{
+            width: 100%;
+            font-size: 14px;
+        }
+        section .about-template .about-content-container .about-company{
+            height: 500px;
+        }
+        section .about-template .about-content-container .about-company .about-company-text{
+            padding: 20px 5px;
+        }
+        section .about-template .about-content-container .about-company .about-company-text h3{
+            height: 50px;
+        }
+        section .about-template .about-content-container .about-company .about-company-text p{
+            height: 350px;
+        }
+        footer .footer-container .footer-column-three .social-media-container{
+            width: 250px;
+        }
+        footer .footer-container .footer-column-three .social-media-container a{
+            margin: 0;
+        }
+
+
+
+}
+
+@media only screen and (min-width: 870px) and (max-width:1050px) {
+
+        section .portfolio-template .portfolio-content-container .row .complete-projects{
+            max-height: 350px;
+            max-width: 260px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: auto;
+            display: flex;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects img{
+            height: 70%;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects h4{
+            width: 100%;
+            font-size: 22px;
+            height: 10%;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects a{
+            width: 100%;
+            font-size: 17px;
+            height: 7%;
+        }
+
+}
+
+/* Large devices (desktops, 1000px and up) */
+@media only screen and (min-width: 1000px) and (max-width:1299px) {
+
+        nav .nav-container{
+            width: 90%;
+        }
+
+        nav .nav-container .nav-links-container .link-4 a{
+            width: 110px;
+            display: flex;
+        }
+        nav .nav-container .nav-links-container .burger-menu-container{
+            display: none;
+        }
+        section .body-section-container{
+            width: 90%;
+        }
+        section .home-banner{
+            height: 800px;
+            width: 100%;
+            background-image: url('img/background.jpg');
+            background-size: cover;
+            padding: 250px 0px;
+        }
+        section .home-banner .home-banner-texts{
+            height: 300px;
+            width: 50%;
+            margin: auto 20px;
+            float: left;
+            justify-content: space-around;
+        }
+        section .home-banner .home-banner-texts p{
+            height: 180px;
+            font-size: 20px;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+        }
+        section .testimonials .testimonials-text p{
+            height: 70px;
+        }
+        section .testimonials .testimonials-image img{
+            height: 400px;
+            width: 487px;
+        }
+        section .success-story .success-story-image img{
+            height: 400px;
+            width: 487px;
+        }
+        section .success-story .success-story-text h4{
+            width: 400px;
+            margin: auto;
+        }
+        section .success-story .success-story-text p{
+            height: 70px;
+            margin: 0;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects{
+            height: 400px;
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: auto;
+        }
+        footer .footer-container{
+            width: 90%;
+        }
+
+}
+
+/* Extra large devices (large desktops, 1300px and up) */
+@media only screen and (min-width: 1300px) and (max-width:1499px) {
+
+        nav .nav-container .nav-links-container .burger-menu-container{
+            display: none;
+        }
+        section .home-banner{
+            height: 800px;
+            width: 100%;
+            background-image: url('img/background.jpg');
+            background-size: cover;
+            padding: 270px 0px;
+        }
+        section .home-banner .home-banner-texts{
+            height: 250px;
+            width: 50%;
+            margin: auto 20px;
+            float: left;
+            justify-content: space-around;
+        }
+        section .home-banner .home-banner-texts p{
+            height: 130px;
+            font-size: 20px;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+        }
+        section .testimonials .testimonials-image img{
+            height: 400px;
+            width: 567px;
+        }
+        section .success-story .success-story-image img{
+            height: 400px;
+            width: 567px;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects{
+            height: 400px;
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: auto;
+        }
+
+}
+/* || End Display for different screen sizes */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) and (max-width:1799px) {
+
+
+        nav .nav-container .nav-links-container .burger-menu-container{
+            display: none;
+        }
+        section .home-banner{
+            height: 800px;
+            width: 100%;
+            background-image: url('img/background.jpg');
+            background-size: cover;
+            padding: 250px 0px;
+        }
+        section .home-banner .home-banner-texts{
+            height: 260px;
+            width: 50%;
+            margin: auto 20px;
+            float: left;
+        }
+        section .home-banner .home-banner-texts h4, p, button{
+            display: block;
+        }
+        section .home-banner .home-banner-texts h4{
+            margin: 0;
+            top: 0;
+            padding: 0;
+            height: 50px;
+            color: #000;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        section .home-banner .home-banner-texts p{
+            height: 140px;
+            font-size: 20px;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+        }
+        section .home-banner .home-banner-texts button{
+            height: 50px;
+            width: 200px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        section .home-banner .home-banner-texts button a{
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+        section .testimonials .testimonials-image img{
+            height: 400px;
+            width: 647px;
+        }
+        section .success-story .success-story-image img{
+            height: 400px;
+            width: 647px;
+        }
+
+    
+}
+/* || End Display for different screen sizes */
+
+/* Extra large devices (large desktops, 1600px and up) */
+@media only screen and (min-width: 1800px) {
+
+            /* NAVIGATION */
+        nav{
+            height: 70px;
+            width: 100%;
+            margin-bottom: 10px;
+            background-color: #ffffff;
+        }
+
+        nav .nav-container{
+            height: 70px;
+            width: 80%;
+            margin: auto;
+        }
+        /* Navigation logo */
+        nav .nav-container .nav-logo-container{
+            height: 70px;
+            width: 50%;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+        nav .nav-container .nav-logo-container img{
+            height: 50px;
+            width: 200px;
+            float: left;
+            margin: 10px auto;
+        }
+        /* || End Navigation logo */
+
+        /* Navigation links */
+        nav .nav-container .nav-links-container{
+            height: 70px;
+            width: 50%;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+        nav ul{
+            height: 70px;
+            width: 80%;
+            padding: 0 0;
+            margin: 0;
+            float: right;
+        }
+        nav ul li{
+            list-style: none;
+            text-align: center;
+            height: 70px;
+            width: 200px;
+            display: inline-block;
+        }
+
+        nav ul, .link-1, .link-2, .link-3{
+            display: flex;
+            align-items: center;
+        }
+        nav ul, .link-1:active{
+            color: blue;
+        }
+        nav ul li a{
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            margin: auto;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav .nav-container .nav-links-container .burger-menu-container{
+            display: none;
+        }
+        /* || End Navigation links */
+
+        /* || END NAVIGATION */
+
+        /* BODY SECTION */
+        section{
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            display: block;
+            margin: 0;
+            margin-bottom: 10px;
+            background-color: #ffffff;
+        }
+        section .body-section-container{
+            height: 100%;
+            width: 80%;
+            margin: auto;
+            padding: 0;
+        }
+
+        /* HOME BANNER */
+        section .home-banner{
+            height: 800px;
+            width: 100%;
+            background-image: url('img/background.jpg');
+            background-size: cover;
+            padding: 290px 0px;
+        }
+        section .home-banner .home-banner-texts{
+            height: 220px;
+            width: 50%;
+            margin: auto 20px;
+            float: left;
+        }
+        section .home-banner .home-banner-texts h4, p, button{
+            display: block;
+        }
+        section .home-banner .home-banner-texts h4{
+            margin: 0;
+            top: 0;
+            padding: 0;
+            height: 50px;
+            color: #000;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        section .home-banner .home-banner-texts p{
+            height: 100px;
+            font-size: 20px;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+        }
+        section .home-banner .home-banner-texts button{
+            height: 50px;
+            width: 200px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        section .home-banner .home-banner-texts button a{
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+        /* || END HOME BANNER */
+
+        /* FEATURES */
+        section .features{
+            height: 400px;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        section .features .features-work, .features-text{
+            display: inline-block;
+        }
+        section .features .features-text{
+            height: 100%;
+            width: 50%;
+            float: left;
+            text-align: center;
+            padding: 140px 0px;
+        }
+        section .features .features-text h3{
+            height: 40px;
+            font-size: 30px;
+            width: 100%;
+            text-align: center;
+            margin: 0;
+        }
+        section .features .features-text p{
+            text-align: center;
+            width: 100%;
+            height: 80px;   
+            margin: 0; 
+        }
+        section .features .features-work{
+            height: 100%;
+            width: 50%;
+            float: right;
+            text-align: center;
+            padding: 140px 0;
+        }
+        section .features .features-work .website-made{
+            height: 60px;
+            width: 100%;
+            margin: 5px 0px;
+        }
+        section .features .features-work .website-made h3{
+            height: 30px;
+            width: 100%;
+            margin: 0;
+        }
+        section .features .features-work .website-made p{
+            height: 30px;
+            width: 100%;
+            margin: 0;
+        }
+        section .features .features-work .software-made{
+            height: 60px;
+            widows: 100%;
+            width: 5px 0px;
+        }
+        section .features .features-work .software-made h3{
+            height: 30px;
+            width: 100%;
+            margin: 0;
+        }
+        section .features .features-work .software-made p{
+            height: 30px;
+            width: 100%;
+            margin: 0;
+        }
+
+        /* || END FEATURES */
+
+        /* SUPPORT */
+        section .body-section-container .support{
+            height: 150px;
+            width: 100%;
+            background-color: #c9c9c9;
+        }
+        section .body-section-container .support .support-header, .support-paragraph{
+            display: inline-block;
+            height: 100%;
+            width: 50%;
+        }
+        section .body-section-container .support .support-header{
+            float: left;
+            text-align: center;   
+            padding: 55px 0px;
+        }
+
+        section .body-section-container .support .support-header h4{
+            height: 40px;
+            width: 100%;
+            font-size: 30px;
+            margin: auto;
+            top: 50%;
+            place-items: center;
+        }
+
+        section .body-section-container .support .support-paragraph{
+            float: right;
+            text-align: center;
+            margin: auto;
+            padding: 40px 0px;
+        }
+        section .body-section-container .support .support-paragraph p{
+            text-align: center;
+            height: 50px;
+            margin: 0;
+        }
+        section .body-section-container .support .support-paragraph span{
+            height: 20px;
+            width: fit-content;
+        }
+        /* || END SUPPORT */
+
+        /* TESTIMONIALS */
+        section .testimonials{
+            height: 400px;
+            width: 100%;
+        }
+        section .testimonials .testimonials-text, .testimonials-image{
+            display: inline-block;
+        }
+        section .testimonials .testimonials-text{
+            height: 100%;
+            width: 49.5%;
+            float: left;
+            padding: 125px 0px;
+        }
+        section .testimonials .testimonials-text h4, p{
+            display: block;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        section .testimonials .testimonials-text h4{
+            font-size: 30px;
+            height: 20%;
+            width: 70%;
+            color: grey;
+            margin: 5px auto;
+        }
+        section .testimonials .testimonials-text p{
+            font-size: 16px;
+            height: 30%;
+            width: 100%;
+        }
+        section .testimonials .testimonials-image{
+            height: 100%;
+            width: 49%;
+            float: right;
+        }
+        section .testimonials .testimonials-image img{
+            height: 400px;
+            width: 800px;
+        }
+
+        /* || END TESTIMONIALS */
+
+        /* SUCCESS STORY */
+        section .success-story{
+            height: 400px;
+            width: 100%;
+        }
+        section .success-story .success-story-image{
+            height: 100%;
+            width: 49%;
+            float: left;
+        }
+        section .success-story .success-story-image img{
+            height: 400px;
+            width: 800px;
+        }
+        section .success-story .success-story-text{
+            height:100%;
+            width: 49%;
+            float: right;
+            text-align: center;
+            padding: 125px 0px;
+        }
+        section .success-story .success-story-text h4, p{
+            display: block;
+            text-align: center;
+        }
+        section .success-story .success-story-text h4{
+            font-size: 30px;
+            height: 20%;
+            width: 70%;
+            color: grey;
+            margin: 5px auto;
+        }
+        section .success-story .success-story-text p{
+            font-size: 16px;
+            height: 30%;
+            width: 100%;
+        }
+        /* || END SUCCESS STORY */
+
+
+
+        /*  --------------- PORTFOLIO PAGE -------------   */
+
+        section .portfolio-template{
+            height: 1500px;
+            width: 100%;
+        }
+        section .portfolio-template .disp-block{
+            display: block;
+        }
+        section .portfolio-template .portfolio-header-container{
+            height: 70px;
+            width: 100%;
+            text-align: center;
+        }
+        section .portfolio-template .portfolio-header-container h4, .disp-block{
+            display: block;
+        }
+        section .portfolio-template .portfolio-header-container h4{
+            text-align: center;
+            font-size: 40px;
+            height: 40px;
+            width: 300px;
+            font-weight: bold;
+            width: 200px;
+            margin: auto;
+        }
+        section .portfolio-template .portfolio-header-container .portfolio-underline{
+            height: 5px;
+            border-radius: 4px;
+            width: 180px;
+            background-color: #4CAF50;
+            margin: auto;
+        }
+        section .portfolio-template .portfolio-content-container{
+            height: 1320px;
+            width: 100%;
+            padding: 30px 20px;
+        }
+        section .portfolio-template .portfolio-content-container .disp-block{
+            display: block;
+        }
+        section .portfolio-template .portfolio-content-container .row{
+            height: 400px;
+            width: 100%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects{
+            max-height: 400px;
+            max-width: 400px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: auto;
+        }
+        section .portfolio-template .portfolio-content-container .row .complete-projects:hover{
+            transform: translateY(-12px);
+            transition: 0.7s;
+            transition-timing-function: 0.7s ease-in;
+        }
+        section .portfolio-template .portfolio-content-container .row  .complete-projects img, h4, a{
+            display: block;
+        }
+        section .portfolio-template .portfolio-content-container .row  .complete-projects img{
+            height: 300px;
+            width: 100%;
+            margin: auto;
+        }
+        section .portfolio-template .portfolio-content-container .row  .complete-projects h4{
+            height: 50px;
+            width: 270px;
+            font-size: 26px;
+            text-align: center;
+            margin: 5px auto;
+        } 
+        section .portfolio-template .portfolio-content-container .row  .complete-projects a{
+            height: 20px;
+            width: 270px;
+            margin: auto;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section .portfolio-template .portfolio-content-container .row  .complete-projects .disp-inline{
+            display: inline-block;
+            vertical-align: top;
+            display: inline;
+            zoom: 1;
+            margin: auto;
+        }
+
+
+        /*  --------------- || END PORTFOLIO PAGE -------------   */
+
+
+
+
+
+
+        /*  --------------- ABOUT PAGE -------------   */
+
+        section .about-template{
+            height: 1500px;
+            width: 100%;
+        }
+        section .about-template .disp-block{
+            display: block;
+        }
+        section .about-template .about-header-container{
+            height: 70px;
+            width: 100%;
+            text-align: center;
+        }
+        section .about-template .about-header-container h4, .disp-block{
+            display: block;
+        }
+        section .about-template .about-header-container h4{
+            text-align: center;
+            font-size: 40px;
+            height: 40px;
+            width: 300px;
+            font-weight: bold;
+            width: 200px;
+            margin: auto;
+        }
+        section .about-template .about-header-container .about-underline{
+            height: 5px;
+            border-radius: 4px;
+            width: 180px;
+            background-color: #4CAF50;
+            margin: auto;
+        }
+        section .about-template .about-content-container{
+            height: 1200px;
+            width: 100%;
+        }
+        section .about-template .about-content-container .about-content-container .disp-block{
+            display: block;
+        }
+        section .about-template .about-content-container .about-company{
+            height: 400px;
+            width: 100%;
+        }
+        section .about-template .about-content-container .about-company .disp-inline{
+            display: inline-block;
+        }
+        section .about-template .about-content-container .about-company .about-company-text{
+            height: 100%;
+            width: 50%;
+            padding: 50px 20px;
+            float: left;
+        }
+        section .about-template .about-content-container .about-company .about-company-text h3, p{
+            display: block;
+        }
+        section .about-template .about-content-container .about-company .about-company-text h3{
+            height: 20%;
+            width: 100%;
+            text-align: left;
+            font-size: 25px;
+        }
+        section .about-template .about-content-container .about-company .about-company-text p{
+            height: 50%;
+            width: 100%;
+            text-align: left;
+            font-size: 20px;
+        }
+        section .about-template .about-content-container .about-company .about-company-logo{
+            height: 100%;
+            width: 50%;
+            padding: 50px 20px;
+            float: right;
+        }
+        section .about-template .about-content-container .company-history{
+            height: 400px;
+            width: 100%;
+        }
+        section .about-template .about-content-container .company-team{
+            height: 400px;
+            width: 100%;
+            padding: 30px 20px;
+        }
+        section .about-template .about-content-container .company-team .row{
+            display: block;
+            height: 50%;
+            width: 100%;
+        }
+        section .about-template .about-content-container .company-team .row .indivi-infor{
+            height: 160px;
+            width: 33%;
+            display: inline-block;
+            padding: 0px 10px;
+        }
+        section .about-template .about-content-container .company-team .row .indivi-infor h3, p, button{
+            display: block;
+        }
+        section .about-template .about-content-container .company-team .row .indivi-infor h3{
+            height: 20%;
+            width: 100%;
+            text-align: left;
+        }
+        section .about-template .about-content-container .company-team .row .indivi-infor p{
+            height: 10%;
+            width: 100%;
+            text-align: left;
+        }
+        section .about-template .about-content-container .company-team .row .indivi-infor button{
+            height: 30px;
+            width: 100px;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        section .about-template .about-content-container .modal{
+            height: 250px;
+            width: 700px;
+            display: none;
+            position: fixed;
+            top: 10%;
+            left: 20%;
+            z-index: 1;
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            -webkit-animation-name: fadeIn; /* Fade in the background */
+            -webkit-animation-duration: 0.4s;
+            animation-name: fadeIn;
+            animation-duration: 0.4s
+        }
+        section .about-template .about-content-container .modal .modal-content{
+            height: 250px;
+            width: 700px;
+            padding: 10px 10px;
+            -webkit-animation-name: slideIn;
+            -webkit-animation-duration: 0.4s;
+            animation-name: slideIn;
+            animation-duration: 0.4s
+        }
+        section .about-template .about-content-container .modal .modal-content .disp-block{
+            display: block;
+        }
+        section .about-template .about-content-container .modal .modal-content .modal-header{
+            height: 20%;
+            width: 100%;
+            background-color: #707070;
+            padding: 10px 10px;
+        }
+        section .about-template .about-content-container .modal .modal-content .modal-header h3, a{
+            display: inline-block;
+        }
+        section .about-template .about-content-container .modal .modal-content .modal-header h3{
+            float: left;
+            height: 100%;
+            width: 80%;
+            font-size: 25px;
+            margin: 0;
+        }
+        section .about-template .about-content-container .modal .modal-content .modal-header a{
+            height: 100%;
+            width: 20%;
+            float: right;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        section .about-template .about-content-container .modal .modal-content .modal-header a i{
+            color: grey;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        section .about-template .about-content-container .modal .modal-content .modal-content-inner{
+            height: 80%;
+            width: 100%;
+            padding: 10px 10px;
+        }
+        section .about-template .about-content-container .modal .modal-content .modal-content-inner h3, p{
+            display: block;
+        }
+        section .about-template .about-content-container .modal .modal-content .modal-content-inner h3{
+            height: 30px;
+            width: 100%;
+            font-size: 20px;
+            text-align: left;
+        }
+        section .about-template .about-content-container .modal .modal-content .modal-content-inner p{
+            height: 100px;
+            width: 100%;
+            font-size: 18px;
+            text-emphasis: left;
+        }
+        /* Add Animation */
+        @-webkit-keyframes slideIn {
+        from {bottom: -300px; opacity: 0} 
+        to {bottom: 0; opacity: 1}
+        }
+
+        @keyframes slideIn {
+        from {bottom: -300px; opacity: 0}
+        to {bottom: 0; opacity: 1}
+        }
+
+        @-webkit-keyframes fadeIn {
+        from {opacity: 0} 
+        to {opacity: 1}
+        }
+
+        @keyframes fadeIn {
+        from {opacity: 0} 
+        to {opacity: 1}
+        }
+        /*  --------------- || END ABOUT PAGE -------------   */
+
+
+
+
+
+
+
+        /*  --------------- CONTACT PAGE -------------   */
+
+        section .contact-template{
+            height: 1100px;
+            width: 100%;
+        }
+        section .contact-template .disp-block{
+            display: block;
+        }
+        section .contact-template .contact-header-container{
+            height: 70px;
+            width: 100%;
+            text-align: center;
+        }
+        section .contact-template .contact-header-container h4, .disp-block{
+            display: block;
+        }
+        section .contact-template .contact-header-container h4{
+            text-align: center;
+            font-size: 40px;
+            height: 40px;
+            width: 300px;
+            font-weight: bold;
+            margin: 5px auto;
+        }
+        section .contact-template .contact-header-container .contact-underline{
+            height: 5px;
+            border-radius: 4px;
+            width: 200px;
+            background-color: #4CAF50;
+            margin: auto;
+        }
+        section .contact-template .contact-content-container{
+            height: 810px;
+            width: 100%;
+        }
+
+
+        /* ------ Content continer ---------- */
+
+        section .contact-template .contact-content-container .disp-block{
+            display: block;
+        }
+
+        /*  Contact information */
+        section .contact-template .contact-content-container .contact-info{
+            height: 400px;
+            width: 100%;
+            padding: 40px 20px;
+        }
+        section .contact-template .contact-content-container .contact-info .disp-inline{
+            display: inline-block;
+        }
+        section .contact-template .contact-content-container .contact-info .call-info{
+            height: 320px;
+            width: 33%;
+            float: left;
+        }
+        section .contact-template .contact-content-container .contact-info .call-info h3, a, p{
+            display: block;
+        }
+        section .contact-template .contact-content-container .contact-info .call-info h3{
+            height: 20%;
+            width: 100%;
+            text-align: left;
+            padding: 20px 0;
+            font-size: 25px;
+        }
+        section .contact-template .contact-content-container .contact-info .call-info a{
+            height: 10%;
+            width: 100%;
+            text-align: left;
+            font-size: 18px;
+        }
+        section .contact-template .contact-content-container .contact-info .call-info p{
+            height: 50%;
+            width: 100%;
+            text-align: left;
+            font-size: 18px;
+        }
+        section .contact-template .contact-content-container .contact-info .email-info{
+            height: 320px;
+            width: 33%;
+        }
+        section .contact-template .contact-content-container .contact-info .email-info h3, a, p{
+            display: block;
+        }
+        section .contact-template .contact-content-container .contact-info .email-info h3{
+            height: 20%;
+            width: 100%;
+            text-align: left;
+            padding: 20px 0;
+            font-size: 25px;
+        }
+        section .contact-template .contact-content-container .contact-info .email-info a{
+            height: 10%;
+            width: 100%;
+            text-align: left;
+            font-size: 18px;
+        }
+        section .contact-template .contact-content-container .contact-info .email-info p{
+            height: 50%;
+            width: 100%;
+            text-align: left;
+            font-size: 18px;
+        }
+        section .contact-template .contact-content-container .contact-info .online-info{
+            height: 320px;
+            width: 33%;
+            float: right;
+        }
+        section .contact-template .contact-content-container .contact-info .online-info h3, a, p{
+            display: block;
+        }
+        section .contact-template .contact-content-container .contact-info .online-info h3{
+            height: 20%;
+            width: 100%;
+            text-align: left;
+            padding: 20px 0;
+            font-size: 25px;
+        }
+        section .contact-template .contact-content-container .contact-info .online-info a{
+            height: 10%;
+            width: 100%;
+            text-align: left;
+            font-size: 18px;
+        }
+        section .contact-template .contact-content-container .contact-info .online-info p{
+            height: 50%;
+            width: 100%;
+            text-align: left;
+            font-size: 18px;
+        }
+        /*  | End Contact information */
+
+
+        /*  Social information */
+        section .contact-template .contact-content-container .social-links{
+            height: 150px;
+            width: 100%;
+            padding: 50px 0px;
+        }
+        section .contact-template .contact-content-container .social-links .disp-inline{
+            display: inline-block;
+        }
+        section .contact-template .contact-content-container .social-links .social-text{
+            height: 100%;
+            width: 50%;
+            float: left;
+        }
+        section .contact-template .contact-content-container .social-links .social-text h3{
+            font-size: 40px;
+            text-align: center;
+        }
+        section .contact-template .contact-content-container .social-links .social-icons-links{
+            height: 100%;
+            width: 50%;
+            float: right;
+            text-align: center;
+        }
+        section .contact-template .contact-content-container .social-links .social-icons-links a{
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            margin: 0px 20px;
+        }
+        section .contact-template .contact-content-container .social-links .social-icons-links a i{
+            color: rgb(29, 28, 28);
+        }
+        /*  || End Social information */
+
+        /*  Location information */
+        section .contact-template .contact-content-container  .google-maps-location{
+            height: 450px;
+            width: 100%;
+        }
+        section .contact-template .contact-content-container  .google-maps-location .disp-inline{
+            display: inline-block;
+        }
+        section .contact-template .contact-content-container  .google-maps-location .hq-info{
+            height: 100%;
+            width: 39%;
+            float: left;
+        }
+        section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container{
+            height: 260px;
+            width: 100%;
+            padding: 20px 10px;
+            position: static;
+            top: 0;
+        }
+        section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container h3, p, ul{
+            display: block;
+        }
+        section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container h3{
+            font-size: 30px;
+            text-align: left;
+            height: 20%;
+            width: 100%;
+        }
+        section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container p{
+            font-size: 20px;
+            height: 30%;
+            width: 100%;
+            text-align: left;
+        }
+        section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container ul{
+            height: 50%;
+            width: 100%;
+            text-align: left;
+        }
+        section .contact-template .contact-content-container  .google-maps-location .hq-info .hq-infor-container ul li{
+            display: block;
+            height: 20px;
+            width: 100%;
+            font-size: 18px;
+        }
+        section .contact-template .contact-content-container  .google-maps-location .hq-location{
+            height: 100%;
+            width: 59%;
+        }
+        section .contact-template .contact-content-container  .google-maps-location .hq-location iframe{
+            height: 100%;
+            width: 100%;
+        }
+        /*  || Location information */
+
+
+        /* --------- ||End Content continer  ---------*/
+
+        /*  --------------- || END CONTACT PAGE -------------   */
+
+
+
+
+
+
+        /* || END BODY SECTION */
+
+        /* FOOTER */
+        footer{
+            height: 350px;
+            width: 100%;
+            background-color: rgb(17, 17, 17);
+            position: static;
+            bottom: 0;
+        }
+        footer .footer-display-block{
+            display: block;
+        }
+        footer .footer-container{
+            height: 240px;
+            width: 80%;
+            margin: auto;
+            padding: 0;
+            padding-top: 30px;
+            border-bottom: 1px solid grey;
+        }
+
+        footer .footer-container .footer-inline{
+            display: inline-block;
+        }
+        /* column one */
+        footer .footer-container .footer-column-one{
+            height: 100%;
+            width: 24%;
+            float: left;
+        }
+        footer .footer-container .footer-column-one h5, ul{
+            display: block;
+        }
+        footer .footer-container .footer-column-one h5{
+            height: 20%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            top: 0;
+            font-size: 30px;
+            color: white;
+        }
+        footer .footer-container .footer-column-one ul{
+            top: 0;
+            height: 75%;
+            width: 100%;
+            margin: auto;
+            padding: 0;
+            position: relative;
+        }
+        footer .footer-container .footer-column-one ul li{
+            height: 30px;
+            width: 200px;
+            padding: 0;
+            display: block;
+            text-decoration: none;
+            list-style: none;
+        }
+        footer .footer-container .footer-column-one ul li a{
+            font-size: 16px;
+            height: 30px;
+            width: 200px;
+            color: #4c4947;
+            text-decoration: none;
+        }
+        /* || End column one */
+
+        /* column two */
+        footer .footer-container .footer-column-two{
+            height: 100%;
+            width: 24%;
+            top: 0;
+        }
+        footer .footer-container .footer-column-two h5, ul{
+            display: block;
+        }
+        footer .footer-container .footer-column-two h5{
+            height: 20%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            font-size: 30px;
+            color: white;
+        }
+        footer .footer-container .footer-column-two ul{
+            height: 75%;
+            width: 100%;
+            margin: auto;
+            padding: 0;
+            top: 0;
+        }
+        footer .footer-container .footer-column-two ul li{
+            height: 20%;
+            width: 100%;
+            padding: 0;
+            display: block;
+            text-decoration: none;
+            list-style: none;
+        }
+        footer .footer-container .footer-column-two ul li a{
+            font-size: 16px;
+            height: 30px;
+            width: 250px;
+            color: #4c4947;
+            text-decoration: none;
+        }
+        footer .footer-container .footer-column-two ul li a i{
+            font-size: 16px;
+            height: 30px;
+            width: 30px;
+            color: #686665;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+        /* || End column two */
+
+        /* column three */
+        footer .footer-container .footer-column-three{
+            height: 100%;
+            width: 45%;
+            float: right;
+            top: 0;
+            right: 0;
+        }
+
+        footer .footer-container .footer-column-three .h5-container, .social-media-container{
+            display: block;
+        }
+        footer .footer-container .footer-column-three .h5-container{
+            height: 20%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        footer .footer-column-three h5{
+            height: 100%;
+            width: 50%;
+            padding: 0;
+            margin: auto;
+            font-size: 30px;
+            text-align: left;
+            color: white;
+        }
+        footer .footer-container .footer-column-three .social-media-container{
+            height: 50px;
+            width: 60%;
+            margin: auto;
+        }
+
+        footer .footer-container .footer-column-three .social-media-container a{ 
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            margin-left: 10px;
+            justify-content: space-between;
+            justify-content: space-evenly;
+        }
+
+        footer .footer-container .footer-column-three .social-media-container a i{  
+            height: 50px;
+            width: 50px;
+            color: #686665;
+            justify-content: space-between;
+        }
+        /* || End column three */
+
+        /* terms and condition */
+        footer .footer-terms-conditions{
+            height: 40px;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            font-size: 16px;
+            padding: 10px 10px;
+            letter-spacing: 1px;
+            justify-content: space-between;
+            color: grey;
+        }
+        footer .footer-terms-conditions a{
+            list-style: none;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            display: inline;
+        }
+        /* || End terms and condition */
+
+        /* || END FOOTER */
+    
+}
+/* || End Display for different screen sizes */
+
+/* ------------------- @Media Queries ----------------------- */

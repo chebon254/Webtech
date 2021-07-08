@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webtech</title>
+
+    <!-- stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- icons libary -->
+    <script type="text/javascript" src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <!-- script -->
+
+     <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="nav-container">
+            <!--  Navigation logo-->
+                <div class="nav-logo-container">
+                    <img src="css/img/logo.png" alt="Webtech logo">
+                </div>
+            <!--  || End Navigation logo -->
+            <!--  Navigation links-->
+                <div class="nav-links-container">
+                    <ul class="links-container-large">
+                        <li class="link-1 link"><a href="index.html" class="active">Home</a></li>
+                        <li class="link-2 link"><a href="portfolio.html">Portfolio</a></li>
+                        <li class="link-3 link"><a href="about.html">About</a></li>
+                        <li class="link-4 link"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                    <!-- Burger menu -->
+                    <ul class="burger-menu-container">
+                        <li class="burger-menu"><a href="javascript:void(0)" class="bar-item button right hide-large hide-medium"
+                                onclick="open_menu()"><i class="fas fa-bars"></i></a></li>
+                    </ul>
+                    <!-- Burger menu -->
+                </div>
+            <!--  || End Navigation links-->
+        </div>
+    </nav>
+    <!-- || END NAVIGATION -->
+
+
+    <!-- Hidden Burger menu -->
+        <!-- Sidebar on small screens when clicking the menu icon -->
+            <div class="sidebar bar-block black card animate-left hide-medium hide-large" style="display:none" id="mySidebar">
+                <a href="javascript:void(0)" onclick="close_menu()" class="bar-item button large padding-16">Close ×</a>
+                <a href="index.html" onclick="close_menu()" class="bar-item button">Home</a>
+                <a href="portfolio.html" onclick="close_menu()" class="bar-item button">Portfolio</a>
+                <a href="about.html" onclick="close_menu()" class="bar-item button">About Us</a>
+                <a href="contact.html" onclick="close_menu()" class="bar-item button">Contact Us</a>
+            </div>
+        <!-- || End Sidebar on small screens when clicking the menu icon -->
+    <!-- || End Hidden Burger menu -->
+
+    <!-- BODY SECTION -->
+
+    <section>
+        <div class="body-section-container">
+            <div class="about-template">
+                <div class="about-header-container disp-block" id="">
+                    <h4>About Us</h4>
+                    <div class="about-underline disp-block"></div>
+                </div>
+                <div class="about-content-container disp-block">
+                    <!-- Company -->
+                        <div class="about-company disp-block">
+                            <div class="about-company-text disp-inline">
+                                <h3>The Company</h3>
+                                <p>Webtech is a Software company that was founded in 2019 with the goal of developing online solutions to small and medium
+                                enterprises. We have offered solutions to a wide range of clientele ranging from start-ups, Small and Medium
+                                Enterprises. We offer solutions in many areas including, website design and development, Mobile applications (IOS and Android) and USSD.</p>
+                            </div>
+                            <div class="about-company-logo disp-inline">
+
+                            </div>
+                        </div>
+                    <!-- || End Company -->
+
+                        <div class="about-header-container disp-block" id="">
+                            <h4>History</h4>
+                            <div class="about-underline disp-block"></div>
+                        </div>
+
+                    <!-- Company History -->
+                        <div class="company-history disp-block">
+                            
+                        </div>
+                    <!-- || End Company History -->
+
+                        <div class="about-header-container disp-block" id="">
+                            <h4>Our Team</h4>
+                            <div class="about-underline disp-block"></div>
+                        </div>
+
+                    <!-- Company Team -->
+                        <div class="company-team disp-block">
+                            <div class="row">
+                                <div class="indivi-infor col-6 col-md-4">
+                                    <h3>John .K. Mbadi</h3>
+                                    <p>C.E.O</p>
+                                    <button id="myBtn">Read More</button>
+                                </div>
+                                <div class="indivi-infor col-6 col-md-4">
+                                    <h3>John .K. Mbadi</h3>
+                                    <p>C.E.O</p>
+                                    <button id="myBtn">Read More</button>
+                                </div>
+                                <div class="indivi-infor col-6 col-md-4">
+                                    <h3>John .K. Mbadi</h3>
+                                    <p>C.E.O</p>
+                                    <button id="myBtn">Read More</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="indivi-infor col-6 col-md-4">
+                                    <h3>John .K. Mbadi</h3>
+                                    <p>C.E.O</p>
+                                    <button id="myBtn">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal more about someone   -->
+
+
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-content">
+                                    <div class="modal-header disp-block">
+                                        <h3>John .K. Mbadi</h3>
+                                        <a href="" id="close" class="close"><i class="fas fa-times"></i></a>
+                                    </div>
+                                    <div class="modal-content-inner disp-block">
+                                        <h3 class="text-muted">C.E.O</h3>
+                                        <p>A Senior Software Engineer in charge Implementation. He is a graduate of Jomo Kenyatta University of Science and
+                                        Technology with a bachelors’ in computer Science. He has been instrumental in the growth of the company’s expanding
+                                        portfolio of services at his current role that has seen him ranked among top engineers in various completion he has
+                                        taken part in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+
+                        <!-- || End Modal more about someone   -->
+
+
+                    <!--|| End  Company Team -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- || END BODY SECTION -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container footer-display-block">
+
+            <!-- Column One -->
+            <div class="footer-column-one footer-inline col-sm">
+                <h5>Link</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
+            <!-- || End Column One -->
+
+            <!-- Column Two -->
+            <div class="footer-column-two footer-inline col-sm">
+                <h5>Talk to us</h5>
+                <ul>
+                    <li><a href="https://mail.google.com/mail/u/0/#inbox"><i
+                                class="fas fa-envelope-open fa-sm"></i>webtechkenya@gmail.com</a></li>
+                    <li><a href="contact.html"><i class="fas fa-phone-square fa-sm"></i>07266753356</a></li>
+                </ul>
+            </div>
+            <!-- || End Column TWo -->
+
+            <!-- Column Three -->
+            <div class="footer-column-three footer-inline col-sm">
+                <div class="h5-container">
+                    <h5>Social</h5>
+                </div>
+                <div class="social-media-container disp-block">
+                    <a href=""><i class="fab fa-twitter-square fa-3x"></i></a>
+                    <a href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+                    <a href=""><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a href=""><i class="fab fa-instagram-square fa-3x"></i></a>
+                </div>
+            </div>
+            <!-- || End Column Three -->
+
+        </div>
+        <div class="footer-terms-conditions footer-display-block">
+            Webtech © 2020 |
+            <a href="https://colorlib.com/travelify/">Terms and Conditions</a>
+        </div>
+    </footer>
+    <!-- || END FOOTER -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
