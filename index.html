@@ -2,202 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webtech</title>
+    <title>WebTech</title>
 
-    <!-- stylesheet-->
+    <!-- == Stylesheet == -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- icons libary -->
-    <script type="text/javascript" src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <!-- == Font == -->
+    <link rel="stylesheet" href="css/fonts.css">
 
-    <!-- Bootstrap -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <!-- == Icons == -->
+    <link rel="stylesheet" href="css/icons/css/all.css">
     
-    <!--  Jquery -->
-    <script src="js/jquery.js"></script>
-
 </head>
 <body>
-
-    <!-- NAVIGATION -->
-        <nav>
-            <div class="nav-container">
-                <!--  Navigation logo-->
-                    <div class="nav-logo-container">
-                        <img src="css/img/logo.png" alt="Webtech logo">
+    <!-- == Site Wrapper == -->
+    <section>
+        <!-- == Navigation == -->
+            <nav>
+                <!-- == Logo == -->
+                    <a id="logo" href="index.html">Web<span>Tech</span></a>
+                <!-- == Nav Links == -->
+                    <div class="nav-links">
+                        <a id="active" href="index.html">Home</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
                     </div>
-                <!--  || End Navigation logo -->
-                <!--  Navigation links-->
-                    <div class="nav-links-container">
-                        <ul class="links-container-large">
-                            <li class="link-1 link"><a href="index.html" class="active">Home</a></li>
-                            <li class="link-2 link"><a href="portfolio.html">Portfolio</a></li>
-                            <li class="link-3 link"><a href="about.html">About</a></li>
-                            <li class="link-4 link"><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                        <!-- Burger menu -->
-                        <ul class="burger-menu-container">
-                            <li class="burger-menu"><a href="javascript:void(0)" class="bar-item button right hide-large hide-medium"
-                                    onclick="open_menu()"><i class="fas fa-bars"></i></a></li>
-                        </ul>
-                        <!-- Burger menu -->
-                    </div>
-                <!--  || End Navigation links-->
-            </div>
-        </nav>
-    <!-- || END NAVIGATION -->
-
-
-<!-- Hidden Burger menu -->
-    <!-- Sidebar on small screens when clicking the menu icon -->
-        <div class="sidebar bar-block black card animate-left hide-medium hide-large" style="display:none" id="mySidebar">
-            <a href="javascript:void(0)" onclick="close_menu()" class="bar-item button large padding-16">Close ×</a>
-            <a href="index.html" onclick="close_menu()" class="bar-item button">Home</a>
-            <a href="portfolio.html" onclick="close_menu()" class="bar-item button">Portfolio</a>
-            <a href="about.html" onclick="close_menu()" class="bar-item button">About Us</a>
-            <a href="contact.html" onclick="close_menu()" class="bar-item button">Contact Us</a>
-        </div>
-    <!-- || End Sidebar on small screens when clicking the menu icon -->
-<!-- || End Hidden Burger menu -->
-
-
-
-
-    <!-- BODY SECTION -->
-
-        <section id="home-section">
-            <div class="body-section-container">
-                
-                <!-- HOME BANNER -->
-                    <div class="home-banner section-display-block">
-                        <div class="home-banner-texts">
-                            <h4>IDEAS MADE REAL</h4>
-                            <p>Imagine, prototype, develop and test your own innovation with the “A“ team. At Webtech we believe in coming together to
-                            craft software solutions . We have expertise in the following areas: Website design and Development, Mobile Apps and
-                            Algorithms.</p>
-                            <button class="btn success"><a href="portfolio.html">Explore</a></button>
-                        </div>
-                    </div>
-                <!-- || END HOME BANNER -->
+            </nav>
+        <!-- == || Navigation == -->
         
-                <!-- FEATURES -->
-                    <div class="features section-display-block">
-                        <!-- Column one -->
-                            <div class="features-text col-sm">
-                                <h3>Our Team</h3>
-                                <p>Our team as always worked together by spliting a project into segments. This has been a success due to time, problem solving and learning new things in time.</p>
-                            </div>
-                        <!-- || End Column one -->
-
-                        <!-- Column two -->
-                            <div class=" features-work col-sm">
-                                <div class="website-made">
-                                    <h3>30+</h3>
-                                    <p>Websites Designed & Developed</p>
-                                </div>
-                                <div class="software-made">
-                                    <h3>10+</h3>
-                                    <p>Software Solutions</p>
-                                </div>
-                            </div>
-                         <!-- || End Column two -->
-                    </div>
-                <!-- || END FEATURES -->
-
-                <!-- SUPPORT -->
-                    <div class="support section-display-block">
-                        <div class="support-header">
-                            <h4>Experience the quality support</h4>
+        <!-- == Body == -->
+            <main>
+                <!-- == Banner == -->
+                    <div class="banner">
+                        <div class="banner-text">
+                            <p>IMAGINE. <br> BUILD. <br> HOST. </p>
+                            <p>Welcome To Your One Stop Shop For The Best Online Market Establisment Solution For Your Bussiness Online Presence.</p>
+                            <button onclick="changeLocation()">Explore More</button>
                         </div>
-                        <div class="support-paragraph">
-                            <p>Support is always our first concern. Webtech has proven a reliable partner to its clients due to timely response to queries and issues.</p>
-                            <span>- Webtech</span>
+                        <div class="banner-img">
+                            <img src="css/img/online 1.svg" alt="">
                         </div>
                     </div>
-                <!-- || End SUPPORT -->
-                
-                <!-- TESTIMONIALS -->
-                    <div class="testimonials section-display-block">                        
-                        <div class="testimonials-text col-sm">
-                            <h4>We the best in the market</h4>
-                            <p>We have what it takes to make you next project a success. We have been tried and tested by the market. Our Vast
-                                portfolio from Private sector to Government says it all.</p>
+                <!-- == || Banner == -->
+                <!-- == Projects == -->
+                    <div class="ads">
+                        <div class="ad">
+                            <h4>Websites:</h4>
+                            <p>200+</p>
                         </div>
-                        <div class="testimonials-image col-sm">
-                            <img src="css/img/testimonials.jpg" alt="">
+                        <div class="ad">
+                            <h4>Softwares:</h4>
+                            <p>20+</p>
                         </div>
-                    </div>
-                <!-- || END TESTIMONIALS -->
-                
-                <!--  SUCCESS STORY-->
-                    <div class="success-story section-display-block">
-                        <div class="success-story-image col-sm">
-                            <img src="css/img/success.jpg" alt="">
-                        </div>
-
-                        <div class="success-story-text col-sm">
-                        <h4>Be our next successful project</h4>
-                        <p>We have what it takes to make you next project a success. We have been tried and tested by the market. Our Vast
-                        portfolio from Private sector to Government says it all.</p>
+                        <div class="ad">
+                            <h4>Countries:</h4>
+                            <p>2</p>
                         </div>
                     </div>
-                <!--  || END SUCCESS STORY-->
-                
-            </div>
-        </section>
-
-    <!-- || END BODY SECTION -->
-
-    <!-- FOOTER -->
-        <footer>
-            <div class="footer-container footer-display-block">
-            
-                <!-- Column One -->
-                <div class="footer-column-one disp-block footer-inline col-sm">
-                    <h5>Link</h5>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                    </ul>
-                </div>
-                <!-- || End Column One -->
-            
-                <!-- Column Two -->
-                <div class="footer-column-two disp-block footer-inline col-sm">
-                    <h5>Talk to us</h5>
-                    <ul>
-                        <li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fas fa-envelope-open fa-sm"></i>webtechkenya@gmail.com</a></li>
-                        <li><a href="contact.html"><i class="fas fa-phone-square fa-sm"></i>07266753356</a></li>
-                    </ul>
-                </div>
-                <!-- || End Column TWo -->
-            
-                <!-- Column Three -->
-                <div class="footer-column-three disp-block footer-inline col-sm">
-                    <div class="h5-container"><h5>Social</h5></div>
-                    <div class="social-media-container disp-block">
-                        <a href=""><i class="fab fa-twitter-square fa-3x"></i></a>
-                        <a href=""><i class="fab fa-facebook-square fa-3x"></i></a>
-                        <a href=""><i class="fab fa-linkedin fa-3x"></i></a>
-                        <a href=""><i class="fab fa-instagram-square fa-3x"></i></a>
+                <!-- == || Projects == -->
+                <!-- == Softwares == -->
+                    <div class="softwares">
+                        <div>
+                            <h4>Online Presence</h4>
+                            <p>One click online visibility for market boost & shares</p>
+                        </div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
                     </div>
-                </div>
-                <!-- || End Column Three -->
-            
-            </div>
-            <div class="footer-terms-conditions footer-display-block">
-                Webtech © 2020 |
-                <a href="https://colorlib.com/travelify/">Terms and Conditions</a>
-            </div>
-        </footer>
-    <!-- || END FOOTER -->
+                <!-- == || Softwares == -->
+            </main>
+        <!-- == || Body == -->
+        <!-- == Footer == -->
+            <footer>
+                <div class="footer-top">
+                    <div class="col" id="col-1">
+                        <a id="footer-logo" href="index.html">Web<span>Tech</span></a>
+                    </div>
+                    <div class="col col-2">
+                        <h4>Get To Know Us</h4>
+                        <a href="#">Careers</a>
+                        <a href="#">Blog</a>
+                        <a href="#">About Webtech</a>
+                        <a href="#">Orders</a>
+                    </div>        
+                    <div class="col col-3">
+                        <h4>Follow Us On:</h4>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div> 
+                </div>       
+                <div class="footer-bottom">
+                    Webtech | 2020 Global Inc
+                </div>       
+            </footer>
+        <!-- == || Footer == -->
 
+        <!-- == Bookmark == -->
+            <a id="bookmark" href="#"><i class="fas fa-chevron-up"></i></a>
+    </section>
 
+    <!-- == Scripts == -->
     <script src="js/script.js"></script>
-    
+
 </body>
 </html>

@@ -1,5 +1,7 @@
 
-
+function changeLocation() {
+    document.location='contact.html'
+}
 
 
 var mySidebar = document.getElementById("mySidebar");
